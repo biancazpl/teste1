@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(116, 114, 114);
+    padding: 0;
+    margin: 0;
+}
+
+.header{ /*parte de CIMA, AONDE ESTÁ o "PROGRAMAÇÃO FRONT-END"*/
+    position: relative;
+    top: 0px;
+    left: 10%;
+    display: flex;
+    width:80%;
+    background: linear-gradient(to right,rgb(1, 2, 79),rgb(1, 3, 119),rgb(4, 6, 168));
+    height: 150px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.logo1{ /* imagem do xavier */
+    position:absolute;
+    left:1%;
+    top:10%;
+    width:23%;
+    height:80%;
+}
+
+.titulo{ /* "PROGRAMAÇÃO FRONT-END" */
+    position:absolute;
+    left:0%;
+    top:10%;
+    width:100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo span{ /*tamanho da fonte do PROGRAMAÇÃO FRONT END*/
+    font-family: fantasy;
+    font-size: 3vw;
+    text-size-adjust: auto;
+    color: whitesmoke;
+}
+
+.menu{ /* parte de TRAS do "Aulas PFE" */
+    position:relative;
+    height:50px;
+    width: 80%;
+    left: 10%;
+    background: linear-gradient(to right,rgb(1, 2, 79),rgb(1, 3, 119),rgb(4, 6, 168));
+    display: flex;
+    top: 4px;
+    justify-content: center;
+}
+
+.menu table tr, tr a{ /* tudo dentro do td "link" */ 
+    text-align: center;
+    color: blue;
+    padding: 20px;
+}
+
+.menu table tr,td, tr { /* tudo dentro do td "aula, conteudo" */ 
+    text-align: center;
+
+    padding: 2011px;
+}
+
+.menu span{ /* "Aulas PFE" */ 
+    font-family: fantasy;
+    font-size: 2vw;
+    
+    text-size-adjust: auto;
+    color: whitesmoke;
+}
+
+
+.main{ /* espaço aonde fica a tabela */
+    position: relative;
+    top: 9px;
+    left: 10%;
+    background-color: white;
+    display: flex;
+    width:80%;
+    height:2550px;
+}
+
+
+table, th, td { /* borda DENTRO da tabela */
+    border: 1px solid blue;
+    border-collapse: collapse;
+    padding: 5px 2px ;
+}
+
+.tabela tr, td:nth-child(even) {
+    background-color: #dcdcdc; /* Define a cor de fundo das linhas pares da tabela */
+}
+
+.tabela tr:hover {
+    background-color: white; 
+}
+
+.tabela td:hover {
+    background-color: white; 
+}
+
+.table, th{ /* parte de cima da tabela "Tema,Aula,Conteúdo e Link" */
+    position: relative;
+    top:0px;
+    background-color: rgb(2, 2, 75);
+    width:5%;
+    color: #dcdcdc;
+    align-items: center;
+}
+
+
+table{ /* TABELAAA */ 
+    position: absolute;
+    top: 24px;
+    
+    left: 24%;
+    width: 50%;
+    border: 4px solid blue;
+}
+
+.footer{
+    position:relative;
+    background-color: rgb(9, 12, 57);
+    display:flex; /* escrita dentro do azul "Gustavo e Bianca" */ 
+    justify-content:center;
+    align-items: center;
+    height:100px;
+    color: azure;
+    width: 80%;
+    left: 10%;
+}
